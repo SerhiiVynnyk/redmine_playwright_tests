@@ -1,0 +1,18 @@
+{
+  "name": "redmine_playwright_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "allure": "allure generate ./allure-results -o ./allure-report && allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.3",
+    "allure-playwright": "^3.0.6"
+  }
+}
